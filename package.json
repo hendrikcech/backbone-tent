@@ -1,0 +1,15 @@
+{
+  "name": "backbone-tent",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "backbone-tent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Hendrik Cech",
+  "license": "MIT",
+  "dependencies": {
+    "tent-request": "~0.2.1"
+  }
+}
