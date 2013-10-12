@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hendrik Cech",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.0",
+    "templatizer": "~0.2.3",
+    "moonboots": "~0.7.0",
+    "human-view": "~1.2.0",
+    "backbone": "~1.1.0",
+    "human-model": "~1.4.0",
+    "underscore": "~1.5.2"
+  }
+}

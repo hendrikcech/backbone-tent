@@ -35,7 +35,7 @@ module.exports = function bbTent(opts) {
 					if(err) console.error(err)
 					if(err) return error(err)	
 					console.log(resp.statusCode)
-					success({ id: body.post.id })
+					success({ id: body.post.id, _post: body })
 				}
 			break
 			case 'read':
@@ -64,7 +64,7 @@ module.exports = function bbTent(opts) {
 				var id = post.id
 
 				delete post._post
-				delete post.id
+				delete post.id				
 
 				client.update(id, updateCb)
 					.parents(versionId)

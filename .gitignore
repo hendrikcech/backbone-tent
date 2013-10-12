@@ -1,3 +1,4 @@
 node_modules
 .DS_Store
+clientapp/templates.js
 config.js
