@@ -8,10 +8,10 @@ module.exports = {
          "oauth_token": "",
          "posts_feed": "",
          "new_post": "",
-         "post": "https",
+         "post": "",
          "post_attachment": "",
-         "attachment": "https",
-         "batch": "https",
+         "attachment": "",
+         "batch": "",
          "server_info": "",
          "discover": ""
         },
